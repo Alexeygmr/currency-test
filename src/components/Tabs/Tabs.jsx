@@ -1,10 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Tab, Row, Nav, Col, InputGroup, Button, FormControl} from "react-bootstrap";
-import {useParams, useNavigate} from "react-router-dom";
 
 const Tabs = ({data}) => {
-  const navigate = useNavigate();
-  const params = useParams();
   const [amount, setAmount] = useState(0);
   const [amountSSSS, setAmountSSSS] = useState(0);
   const [key, setKey] = useState('usd');
