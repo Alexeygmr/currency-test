@@ -7,8 +7,8 @@ import { BrowserRouter,Route,Routes } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Tabs from "./components/Tabs/Tabs";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux'
-
 import { store } from './redux/store/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
